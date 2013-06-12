@@ -64,7 +64,6 @@
 		
 		function touchClick( e ){ 
 			$.event.trigger( type, e, e.target );
-			return false;
 		}
 		
 		/**
